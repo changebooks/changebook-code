@@ -1,0 +1,108 @@
+package io.github.changebooks.code.base;
+
+/**
+ * 标准错误信息
+ *
+ * @author changebooks@qq.com
+ */
+public interface Message {
+    String SUCCESS = "OK";
+    String FORBIDDEN = "无访问权限";
+    String PAGE_NOT_FOUND = "页面不存在";
+    String METHOD_NOT_ALLOWED = "请求方式不支持";
+    String SYSTEM_RUN_ERR = "系统运行异常";
+    String SCRIPT_RUN_ERR = "脚本运行失败";
+    String IDEMPOTENT = "幂等";
+    String CONFLICT = "重复请求";
+    String NO_ARGS = "缺少参数";
+    String ARGS_ERR = "参数错误";
+    String NO_RESULT = "缺少结果";
+    String RESULT_ERR = "结果错误";
+    String JSON_ERR = "Json格式错误";
+    String XML_ERR = "Xml格式错误";
+    String NO_FILE = "缺少文件";
+    String FILE_ERR = "文件错误";
+    String NO_DIRECTORY = "缺少目录";
+    String DIRECTORY_ERR = "目录错误";
+    String NO_RESOURCE = "缺少资源";
+    String RESOURCE_ERR = "资源错误";
+    String AGGREGATE_ERR = "统计失败";
+    String FIND_ERR = "查询失败";
+    String INSERT_ERR = "新增失败";
+    String UPDATE_ERR = "修改失败";
+    String DELETE_ERR = "删除失败";
+    String DB_FIND_ERR = "查询数据库失败";
+    String DB_INSERT_ERR = "新增数据库失败";
+    String DB_UPDATE_ERR = "修改数据库失败";
+    String DB_DELETE_ERR = "删除数据库失败";
+    String CACHE_FIND_ERR = "查询缓存失败";
+    String CACHE_INSERT_ERR = "新增缓存失败";
+    String CACHE_UPDATE_ERR = "修改缓存失败";
+    String CACHE_DELETE_ERR = "删除缓存失败";
+    String ATTRIBUTE_FIND_ERR = "查询属性失败";
+    String ATTRIBUTE_INSERT_ERR = "新增属性失败";
+    String ATTRIBUTE_UPDATE_ERR = "修改属性失败";
+    String ATTRIBUTE_DELETE_ERR = "删除属性失败";
+    String FILE_READ_ERR = "读文件失败";
+    String FILE_CREATE_ERR = "创建文件失败";
+    String FILE_WRITE_ERR = "写文件失败";
+    String FILE_DELETE_ERR = "删文件失败";
+    String DIRECTORY_READ_ERR = "读目录失败";
+    String DIRECTORY_CREATE_ERR = "创建目录失败";
+    String DIRECTORY_DELETE_ERR = "删目录失败";
+    String UPLOAD_ERR = "上传失败";
+    String DOWNLOAD_ERR = "下载失败";
+    String HTTP_ERR = "HTTP请求失败";
+    String RPC_ERR = "RPC调用失败";
+    String SEND_MSG_ERR = "发消息失败";
+    String NO_TOKEN = "未登录";
+    String TOKEN_ERR = "Token错误";
+    String TOKEN_EXPIRED = "登录过期";
+    String UNKNOWN_ERR = "未知错误";
+    String NO_TIME = "缺少时间";
+    String TIME_ERR = "时间格式错误";
+    String NO_DATE = "缺少日期";
+    String DATE_ERR = "日期格式错误";
+    String NO_SORT = "缺少排序";
+    String SORT_ERR = "排序错误";
+    String SORT_POSITIVE = "排序是正整数";
+    String NO_VERSION = "缺少版本";
+    String VERSION_ERR = "版本错误";
+    String VERSION_UNSUPPORTED = "版本不存在";
+    String NO_TYPE = "缺少类型";
+    String TYPE_ERR = "类型错误";
+    String TYPE_UNSUPPORTED = "类型不支持";
+    String NO_PROGRESS = "缺少进度";
+    String PROGRESS_ERR = "进度错误";
+    String PROGRESS_UNSUPPORTED = "进度不支持";
+    String NO_BIZ_ID = "缺少业务id";
+    String BIZ_ID_ERR = "业务id错误";
+    String BIZ_ID_CONFLICT = "业务id重复";
+    String BIZ_ID_UNSUPPORTED = "业务id不存在";
+    String NO_ID = "缺少主键";
+    String ID_ERR = "主键错误";
+    String ID_POSITIVE = "主键是正整数";
+    String ID_CONFLICT = "主键重复";
+    String ID_UNSUPPORTED = "主键不存在";
+    String NO_FLOW_ID = "缺少流水id";
+    String FLOW_ID_ERR = "流水id错误";
+    String FLOW_ID_POSITIVE = "流水id是正整数";
+    String FLOW_ID_CONFLICT = "流水id重复";
+    String FLOW_UNSUPPORTED = "流水不存在";
+    String NO_USER_ID = "缺少用户id";
+    String USER_ID_ERR = "用户id错误";
+    String USER_ID_POSITIVE = "用户id是正整数";
+    String USER_ID_CONFLICT = "用户id重复";
+    String USER_UNSUPPORTED = "用户不存在";
+    String NO_PLATFORM_ID = "缺少平台id";
+    String PLATFORM_ID_ERR = "平台id错误";
+    String PLATFORM_ID_POSITIVE = "平台id是正整数";
+    String PLATFORM_ID_CONFLICT = "平台id重复";
+    String PLATFORM_UNSUPPORTED = "平台不存在";
+    String NO_SHOP_ID = "缺少店铺id";
+    String SHOP_ID_ERR = "店铺id错误";
+    String SHOP_ID_POSITIVE = "店铺id是正整数";
+    String SHOP_ID_CONFLICT = "店铺id重复";
+    String SHOP_UNSUPPORTED = "店铺不存在";
+
+}
